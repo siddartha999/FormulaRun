@@ -10,7 +10,6 @@ import SwiftUI
 
 struct CareerRunsView: View {
     var body: some View {
-        
             Grid {
                 GridRow {
                     HStack {
@@ -28,7 +27,7 @@ struct CareerRunsView: View {
                         Spacer()
                     }
                 }
-                .padding([.top], 10)
+                .padding(.top, 10)
                 
                 Divider()
                     .frame(height: 1)
@@ -83,7 +82,7 @@ struct CareerRunsView: View {
                 }
                 
             }
-            .frame(width: .infinity, height: 140)
+            .frame(height: 140)
             .background(Color.gray.opacity(0.2))
             .border(Color.gray.opacity(0.2))
             .cornerRadius(8)

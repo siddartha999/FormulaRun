@@ -15,19 +15,50 @@ func backgroundGradient() -> LinearGradient {
 struct ContentView: View {
     @EnvironmentObject private var appState: AppState
     var body: some View {
-        if appState.canAccessHealthKit {
+        if !appState.canAccessHealthKit {
             ZStack {
                 backgroundGradient()
+            }
+        }
+        else {
+            ZStack (alignment: .topLeading) {
+                backgroundGradient()
+                HStack {
+                    Text("\(Date(), style: .date)")
+                        .font(.headline)
+                        .foregroundColor(Color.gray)
+                }
+                .padding(.top, 20)
+                .padding(.leading, 20)
+                
+                HStack {
+                    Text("Summary")
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    
+                        Image(systemName: "circle.fill")
+                            .foregroundColor(Color.red)
+                            .font(.system(size: 35))
+                            .padding(.trailing, 10)
+                            .overlay(
+                                Text("ST")
+                                    .foregroundColor(Color.white)
+                                    .font(.headline)
+                                    .bold()
+                                    .padding(.trailing, 12)
+                            )
+                }
+                .padding(.top, 50)
+                .padding(.leading, 20)
+                
+                
                 VStack {
                     CareerRunsView()
                         .environmentObject(appState)
-                    Spacer()
                 }
-            }
-        } else {
-            ZStack {
-                backgroundGradient()
-                
+                .padding(.top, 100)
             }
         }
     }
