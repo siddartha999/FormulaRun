@@ -39,7 +39,7 @@ struct ContentView: View {
                     
                     
                         Image(systemName: "circle.fill")
-                            .foregroundColor(Color.red)
+                        .foregroundColor(Color.yellow)
                             .font(.system(size: 35))
                             .padding(.trailing, 10)
                             .overlay(
@@ -47,7 +47,7 @@ struct ContentView: View {
                                     .foregroundColor(Color.white)
                                     .font(.headline)
                                     .bold()
-                                    .padding(.trailing, 12)
+                                    .padding(.trailing, 10)
                             )
                 }
                 .padding(.top, 50)
