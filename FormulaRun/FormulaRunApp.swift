@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import HealthKit
+
+
+class AppState: ObservableObject {
+    @Published var canAccessHealthKit: Bool = HKHealthStore.isHealthDataAvailable()
+}
 
 @main
 struct FormulaRunApp: App {
+    @StateObject private var appState: AppState = AppState()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appState)
         }
     }
 }

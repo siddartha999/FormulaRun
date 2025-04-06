@@ -13,12 +13,28 @@ func backgroundGradient() -> LinearGradient {
 }
 
 struct ContentView: View {
+    @EnvironmentObject private var appState: AppState
     var body: some View {
-        CareerRunsView()
+        if appState.canAccessHealthKit {
+            ZStack {
+                backgroundGradient()
+                VStack {
+                    CareerRunsView()
+                        .environmentObject(appState)
+                    Spacer()
+                }
+            }
+        } else {
+            ZStack {
+                backgroundGradient()
+                
+            }
+        }
     }
 }
 
 
 #Preview {
     ContentView()
+        .environmentObject(AppState())
 }

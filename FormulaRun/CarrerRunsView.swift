@@ -10,8 +10,7 @@ import SwiftUI
 
 struct CareerRunsView: View {
     var body: some View {
-        ZStack{
-            backgroundGradient()
+        
             Grid {
                 GridRow {
                     HStack {
@@ -20,43 +19,75 @@ struct CareerRunsView: View {
                             .foregroundColor(.white)
                             .bold()
                             .padding(.leading, 16)
+                        Image(systemName: "figure.run")
+                            .foregroundColor(.white)
+                            .symbolEffect(.pulse.wholeSymbol, options: .repeat(.periodic(delay: 1.0)))
+                            .font(.title2)
+                            .padding(.leading, 4)
+                        
                         Spacer()
                     }
                 }
                 .padding([.top], 10)
                 
                 Divider()
+                    .frame(height: 1)
+                    .background(Color.gray.opacity(0.3))
                 
                 GridRow {
                     HStack {
                         VStack {
                             Text("Total")
                                 .foregroundColor(.green)
+                                .font(.title3)
+                                .bold()
+                            
+                            Spacer()
+                            
                             Text("100")
-                                .foregroundColor(.blue)
+                                .foregroundColor(.green)
+                                .padding(.bottom, 10)
+                                
                         }
+                        Spacer()
+                        
                         VStack {
-                            Text ("10Ks")
-                                .foregroundColor(.brown)
+                            HStack {
+                                Text ("10K")
+                                    .foregroundColor(.cyan)
+                                    .font(.title3)
+                                    .bold()
+                            }
+                            Spacer()
                             Text("70")
-                                .foregroundColor(.indigo)
+                                .foregroundColor(.cyan)
+                                .padding(.bottom, 10)
                         }
+                        Spacer()
+                        
                         VStack {
-                            Text ("5Ks")
-                                .foregroundColor(.brown)
+                            Text ("5K")
+                                .foregroundColor(.yellow)
+                                .font(.title3)
+                                .bold()
+                            
+                            Spacer()
                             Text("30")
-                                .foregroundColor(.indigo)
+                                .foregroundColor(.yellow)
+                                .padding(.bottom, 10)
                         }
                         Spacer()
                     }
-                    .padding([.leading], 16)
+                    .padding(.leading, 18)
+                    .padding(.top, 10)
                 }
-                .frame(alignment: .leading)
+                
             }
-            .frame(width: .infinity, height: 120)
-            .border(.gray)
-            .cornerRadius(16)
+            .frame(width: .infinity, height: 140)
+            .background(Color.gray.opacity(0.2))
+            .border(Color.gray.opacity(0.2))
+            .cornerRadius(8)
+            .shadow(color: Color.white.opacity(0.01), radius: 4)
             .padding()
         }
-    }
 }

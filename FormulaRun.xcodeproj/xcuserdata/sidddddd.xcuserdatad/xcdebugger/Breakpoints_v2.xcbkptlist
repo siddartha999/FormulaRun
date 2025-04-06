@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5B29435C-23B2-4E82-BA5E-B05F7014CA29"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1056E693-5B53-4E24-96FE-21527171F29C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FormulaRun/FormulaRunApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppState"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - 278fd0741da73bfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of FormulaRun.AppState.canAccessHealthKit : Swift.Bool"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - 9a00e91055e5f1d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.canAccessHealthKit.getter : Swift.Bool"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - ea3f2bc9dc96dff0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.canAccessHealthKit.setter : Swift.Bool"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - e94213233945d187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.canAccessHealthKit.modify : Swift.Bool"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - 1d64b685a25a9cbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.canAccessHealthKit.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - 92f200ec5c7c698c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.$canAccessHealthKit.getter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - f5a2f26023ae33d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.$canAccessHealthKit.setter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - aaaab4727fcfe2e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.$canAccessHealthKit.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sidddddd/Documents/FormulaRun/FormulaRun/FormulaRun/FormulaRunApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "1056E693-5B53-4E24-96FE-21527171F29C - c61e3dc5b9c7fb5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FormulaRun.AppState.$canAccessHealthKit.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FormulaRun.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
