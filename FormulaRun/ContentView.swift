@@ -34,6 +34,7 @@ struct ContentView: View {
                 HStack {
                     Text("Summary")
                         .font(.title)
+                        .bold()
                         .foregroundColor(Color.white)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     
@@ -50,7 +51,7 @@ struct ContentView: View {
                                     .padding(.trailing, 10)
                             )
                 }
-                .padding(.top, 50)
+                .padding(.top, 44)
                 .padding(.leading, 20)
                 
                 
@@ -58,7 +59,7 @@ struct ContentView: View {
                     CareerRunsView()
                         .environmentObject(appState)
                 }
-                .padding(.top, 100)
+                .padding(.top, 90)
             }
         }
     }
